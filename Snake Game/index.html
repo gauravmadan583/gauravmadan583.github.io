@@ -189,6 +189,17 @@
         }
         
       }
+
+      function makeApple() {
+        apple_x = Math.floor(Math.random()*gameCanvas.width);
+        apple_y = Math.floor(Math.random()*gameCanvas.height);
+
+        for(var i=0;i<length;i++){
+          if(x[i]==apple_x && y[i]==apple_y){
+            return makeApple();
+          }
+        }
+      }
       function startGame() {
 
         context.fillStyle = 'black';
@@ -213,9 +224,8 @@
             game = setInterval(startGame, speed);
           }
 
-          apple_x = Math.floor(Math.random()*gameCanvas.width);
-          apple_y = Math.floor(Math.random()*gameCanvas.height);
-
+          makeApple();
+          
 
           document.getElementById("score").innerHTML = "Score: " + (length - 50);
         }
@@ -240,8 +250,7 @@
         direction = 39;
         prev_direction = 39;
         
-        apple_x = Math.floor(Math.random()*gameCanvas.width);
-        apple_y = Math.floor(Math.random()*gameCanvas.height);
+        makeApple()
 
         x = new Array(MAXLENGTH);
         y = new Array(MAXLENGTH);
