@@ -1,0 +1,29 @@
+{
+  "name": "gauravmadan583.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravmadan583/gauravmadan583.github.io.git"
+  },
+  "author": "Gaurav Madan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravmadan583/gauravmadan583.github.io/issues"
+  },
+  "homepage": "https://github.com/gauravmadan583/gauravmadan583.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
