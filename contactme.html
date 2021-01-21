@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<script src="https://use.fontawesome.com/f1d3652f34.js"></script>
-	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -22,11 +22,11 @@
 				<!-- <button type="button" id="collapse" class="btn btn-dark navbar-toggler"><span class="fa fa-bars"></span></button> -->
 
 				<div class="ml-auto text-white">
-					<a class="nav-item" href="/"><span class="fa fa-home"></span> Home</a>
-					<a class="" href="/about.html"><span class="fa fa-user"></span> About</a>
-					<a class="" href="/contactme.html"><span class="fa fa-address-book"></span> Contact</a>
-					<a class="" href="/contactme.html"><span class="fa fa-project-diagram"></span> Projects</a>
-					<a class="" href="/contactme.html"><span class="fa fa-briefcase"></span> Experience</a>
+					<a class="mr-2 text-white" href="/"><span class="fa fa-home"></span> Home</a>
+					<a class="mr-2 text-white" href="/about.html"><span class="fa fa-user"></span> About</a>
+					<a class="mr-2 text-white" href="/projects.html"><span class="fa fa-book"></span> Projects</a>
+					<a class="mr-2 text-white" href="/experience.html"><span class="fa fa-briefcase"></span> Experience</a>
+					<a class="mr-2 text-white" href="/contactme.html"><span class="fa fa-address-book"></span> Contact</a>
 				</div>
 			</nav>
 		</div>
@@ -49,30 +49,80 @@
                 <label for="message">Feedback</label>
                 <textarea class="form-control" rows="12"></textarea>
             </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+            </div>
             
         </form>
     </div>
+
 	<footer>
-		<div class="container">
+		<div class="mt-5 container">
 			<div class="row">
 				<div class="col-12 col-md-4">
-					<ul id="footer">
-						<li><a href="/">Home</a></li>
-						<li><a href="/about.html">About</a></li>
-						<li><a href="/contactme.html">Projects</a></li>
-						<li><a href="/contactme.html">Experience</a></li>
-						<li><a href="/contactme.html">Contact</a></li>
-					</ul>
+					<div class="row">
+						<ul id="footer">
+							<li><a href="/">Home</a></li>
+							<li><a href="/about.html">About</a></li>
+							<li><a href="/projects.html">Projects</a></li>
+							<li><a href="/experience.html">Experience</a></li>
+							<li><a href="/contactme.html">Contact</a></li>
+						</ul>
+					</div>
+						
+					<hr>
+
+					<div class="row">
+
+						<div class="row">
+							<p><span class="fa fa-user col-2"></span></p>
+							<p>Gaurav Madan</p>
+
+						</div>
+
+						<div class="row">
+							<p><span class="fa fa-tag col-2"></span></p>
+							<p>Student,<br>Netaji Subhas University of Technology</p>
+						</div>
+
+						<div class="row">
+							<p><span class="fa fa-google col-2"></span></p>
+							<a href="mailto:gauravmadan583@gmail.com"><p>gauravmadan583@gmail.com</p></a>
+						</div>
+
+					</div>
+
+					<hr>
+					
+					<div class="row">
+						<a class="m-auto btn btn-lg btn-outline-dark" href="https://www.linkedin.com/in/gaurav-madan-210b62177/" role="button" target="_blank">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+	
+						<a class="m-auto btn btn-lg btn-outline-dark" href="https://github.com/gauravmadan583" role="button" target="_blank">
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</a>
+	
+						<a class="m-auto btn btn-lg btn-outline-dark" href="https://www.facebook.com/gaurav.madan.583" role="button" target="_blank">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+	
+						<a class="m-auto btn btn-lg btn-outline-dark" href="https://www.instagram.com/gauravmadan583/" role="button" target="_blank">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+	
+						<a class="m-auto btn btn-lg btn-outline-dark" href="https://twitter.com/gauravmadan583" role="button" target="_blank">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</div>
+					
 					
 				</div>
 
 				<div class="col-12 col-md-8">
-					<div class="mapouter">
-						<div class="gmap_canvas">
-							<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=%20Storey,%20New%20Rajinder%20Nagar&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
-							<a href="https://putlocker-is.org"></a>
-						</div>
-					</div>
+					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=%20Storey,%20New%20Rajinder%20Nagar&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+					<a href="https://putlocker-is.org"></a>
 				</div>
 			</div>
 			<div class="row">
